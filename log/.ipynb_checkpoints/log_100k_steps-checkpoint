@@ -1,0 +1,117 @@
+[2022-06-22 01:04:51,684 INFO] Loading src vocabulary from vul_data/data.vocab.src
+[2022-06-22 01:04:51,732 INFO] Loaded src vocab has 36352 tokens.
+[2022-06-22 01:04:51,744 INFO] Loading tgt vocabulary from vul_data/data.vocab.tgt
+[2022-06-22 01:04:51,831 INFO] Loaded tgt vocab has 5924 tokens.
+[2022-06-22 01:06:16,289 INFO]  * tgt vocab size: 5004.
+[2022-06-22 01:06:16,312 INFO]  * src vocab size: 5002.
+[2022-06-22 01:06:29,762 INFO] Start training loop and validate every 20000 steps...
+[2022-06-22 01:06:29,763 INFO] corpus's transforms: TransformPipe()
+[2022-06-22 01:06:29,764 INFO] Weighted corpora loaded so far:
+			* corpus: 1
+[2022-06-22 01:06:34,723 INFO] Step 50/100000; acc:   0.04; ppl: 4968.52; xent: 8.51; lr: 0.00100; 38204/3137 tok/s;      5 sec
+[2022-06-22 01:06:40,104 INFO] Step 100/100000; acc:   3.26; ppl: 4864.77; xent: 8.49; lr: 0.00100; 34549/3399 tok/s;     10 sec
+[2022-06-22 01:06:45,153 INFO] Step 150/100000; acc:   9.28; ppl: 4744.70; xent: 8.46; lr: 0.00100; 36540/4235 tok/s;     15 sec
+[2022-06-22 01:06:46,121 INFO] Weighted corpora loaded so far:
+			* corpus: 2
+[2022-06-22 01:06:50,205 INFO] Step 200/100000; acc:  10.15; ppl: 4632.19; xent: 8.44; lr: 0.00100; 37388/3355 tok/s;     20 sec
+[2022-06-22 01:06:55,499 INFO] Step 250/100000; acc:   9.60; ppl: 4527.66; xent: 8.42; lr: 0.00100; 35077/3527 tok/s;     26 sec
+[2022-06-22 01:07:00,495 INFO] Step 300/100000; acc:  10.89; ppl: 4400.63; xent: 8.39; lr: 0.00100; 37252/3961 tok/s;     31 sec
+[2022-06-22 01:07:02,320 INFO] Weighted corpora loaded so far:
+			* corpus: 3
+[2022-06-22 01:07:05,714 INFO] Step 350/100000; acc:  12.19; ppl: 4284.08; xent: 8.36; lr: 0.00100; 35955/3391 tok/s;     36 sec
+[2022-06-22 01:07:10,918 INFO] Step 400/100000; acc:  12.29; ppl: 4162.45; xent: 8.33; lr: 0.00100; 35997/3305 tok/s;     41 sec
+[2022-06-22 01:07:16,054 INFO] Step 450/100000; acc:  12.68; ppl: 4038.02; xent: 8.30; lr: 0.00100; 35859/3765 tok/s;     46 sec
+[2022-06-22 01:07:18,913 INFO] Weighted corpora loaded so far:
+			* corpus: 4
+[2022-06-22 01:07:21,552 INFO] Step 500/100000; acc:  12.57; ppl: 3915.08; xent: 8.27; lr: 0.00100; 34321/3516 tok/s;     52 sec
+[2022-06-22 01:07:26,573 INFO] Step 550/100000; acc:  13.34; ppl: 3751.93; xent: 8.23; lr: 0.00100; 37542/3548 tok/s;     57 sec
+[2022-06-22 01:07:31,644 INFO] Step 600/100000; acc:  13.18; ppl: 3611.73; xent: 8.19; lr: 0.00100; 36421/3672 tok/s;     62 sec
+[2022-06-22 01:07:35,398 INFO] Weighted corpora loaded so far:
+			* corpus: 5
+[2022-06-22 01:07:37,205 INFO] Step 650/100000; acc:  13.03; ppl: 3458.50; xent: 8.15; lr: 0.00100; 33927/3577 tok/s;     67 sec
+[2022-06-22 01:07:42,315 INFO] Step 700/100000; acc:  12.77; ppl: 3279.23; xent: 8.10; lr: 0.00100; 37121/3689 tok/s;     73 sec
+[2022-06-22 01:07:47,398 INFO] Step 750/100000; acc:  12.53; ppl: 3116.48; xent: 8.04; lr: 0.00100; 36281/3001 tok/s;     78 sec
+[2022-06-22 01:07:52,120 INFO] Weighted corpora loaded so far:
+			* corpus: 6
+[2022-06-22 01:07:52,973 INFO] Step 800/100000; acc:  12.58; ppl: 2945.49; xent: 7.99; lr: 0.00100; 33479/3843 tok/s;     83 sec
+[2022-06-22 01:07:58,209 INFO] Step 850/100000; acc:  12.93; ppl: 2729.09; xent: 7.91; lr: 0.00100; 35949/3481 tok/s;     88 sec
+[2022-06-22 01:08:03,275 INFO] Step 900/100000; acc:  12.42; ppl: 2560.93; xent: 7.85; lr: 0.00100; 36210/3456 tok/s;     94 sec
+[2022-06-22 01:08:08,601 INFO] Step 950/100000; acc:  12.79; ppl: 2321.34; xent: 7.75; lr: 0.00100; 35329/3884 tok/s;     99 sec
+[2022-06-22 01:08:08,617 INFO] Weighted corpora loaded so far:
+			* corpus: 7
+[2022-06-22 01:08:13,774 INFO] Step 1000/100000; acc:  12.69; ppl: 2122.69; xent: 7.66; lr: 0.00100; 36517/3213 tok/s;    104 sec
+[2022-06-22 01:08:18,928 INFO] Step 1050/100000; acc:  12.00; ppl: 1944.96; xent: 7.57; lr: 0.00100; 36217/3598 tok/s;    109 sec
+[2022-06-22 01:08:24,199 INFO] Step 1100/100000; acc:  12.63; ppl: 1680.73; xent: 7.43; lr: 0.00100; 34822/3773 tok/s;    114 sec
+[2022-06-22 01:08:25,027 INFO] Weighted corpora loaded so far:
+			* corpus: 8
+[2022-06-22 01:08:29,551 INFO] Step 1150/100000; acc:  11.91; ppl: 1460.54; xent: 7.29; lr: 0.00100; 35409/3249 tok/s;    120 sec
+[2022-06-22 01:08:35,017 INFO] Step 1200/100000; acc:  11.30; ppl: 1269.96; xent: 7.15; lr: 0.00100; 33710/3312 tok/s;    125 sec
+[2022-06-22 01:08:40,301 INFO] Step 1250/100000; acc:  11.39; ppl: 1050.33; xent: 6.96; lr: 0.00100; 35775/3793 tok/s;    131 sec
+[2022-06-22 01:08:42,093 INFO] Weighted corpora loaded so far:
+			* corpus: 9
+[2022-06-22 01:08:45,811 INFO] Step 1300/100000; acc:  10.48; ppl: 900.53; xent: 6.80; lr: 0.00100; 34473/3393 tok/s;    136 sec
+[2022-06-22 01:08:50,839 INFO] Step 1350/100000; acc:  10.33; ppl: 744.16; xent: 6.61; lr: 0.00100; 37382/3408 tok/s;    141 sec
+[2022-06-22 01:08:55,903 INFO] Step 1400/100000; acc:  10.42; ppl: 627.41; xent: 6.44; lr: 0.00100; 36412/3785 tok/s;    146 sec
+[2022-06-22 01:08:58,542 INFO] Weighted corpora loaded so far:
+			* corpus: 10
+[2022-06-22 01:09:01,266 INFO] Step 1450/100000; acc:  10.49; ppl: 548.65; xent: 6.31; lr: 0.00100; 35269/3551 tok/s;    152 sec
+[2022-06-22 01:09:06,298 INFO] Step 1500/100000; acc:  11.88; ppl: 508.18; xent: 6.23; lr: 0.00100; 37256/3684 tok/s;    157 sec
+[2022-06-22 01:09:11,534 INFO] Step 1550/100000; acc:  12.30; ppl: 460.12; xent: 6.13; lr: 0.00100; 34975/3677 tok/s;    162 sec
+[2022-06-22 01:09:14,874 INFO] Weighted corpora loaded so far:
+			* corpus: 11
+[2022-06-22 01:09:16,815 INFO] Step 1600/100000; acc:  12.14; ppl: 418.78; xent: 6.04; lr: 0.00100; 35563/3587 tok/s;    167 sec
+[2022-06-22 01:09:21,941 INFO] Step 1650/100000; acc:  13.41; ppl: 390.63; xent: 5.97; lr: 0.00100; 36813/3785 tok/s;    172 sec
+[2022-06-22 01:09:26,976 INFO] Step 1700/100000; acc:  15.32; ppl: 377.54; xent: 5.93; lr: 0.00100; 36612/3128 tok/s;    177 sec
+[2022-06-22 01:09:31,362 INFO] Weighted corpora loaded so far:
+			* corpus: 12
+[2022-06-22 01:09:32,700 INFO] Step 1750/100000; acc:  15.65; ppl: 355.20; xent: 5.87; lr: 0.00100; 33435/3733 tok/s;    183 sec
+[2022-06-22 01:09:37,866 INFO] Step 1800/100000; acc:  15.76; ppl: 322.69; xent: 5.78; lr: 0.00100; 36319/3907 tok/s;    188 sec
+[2022-06-22 01:09:42,896 INFO] Step 1850/100000; acc:  14.90; ppl: 318.75; xent: 5.76; lr: 0.00100; 36903/2894 tok/s;    193 sec
+[2022-06-22 01:09:47,824 INFO] Weighted corpora loaded so far:
+			* corpus: 13
+[2022-06-22 01:09:48,229 INFO] Step 1900/100000; acc:  16.20; ppl: 304.74; xent: 5.72; lr: 0.00100; 35385/3995 tok/s;    198 sec
+[2022-06-22 01:09:53,183 INFO] Step 1950/100000; acc:  15.70; ppl: 296.44; xent: 5.69; lr: 0.00100; 38091/3289 tok/s;    203 sec
+[2022-06-22 01:09:58,300 INFO] Step 2000/100000; acc:  15.17; ppl: 287.78; xent: 5.66; lr: 0.00100; 36465/3709 tok/s;    209 sec
+[2022-06-22 01:10:03,507 INFO] Step 2050/100000; acc:  15.87; ppl: 270.41; xent: 5.60; lr: 0.00100; 35586/3935 tok/s;    214 sec
+[2022-06-22 01:10:08,619 INFO] Step 2100/100000; acc:  15.85; ppl: 275.62; xent: 5.62; lr: 0.00100; 36780/3258 tok/s;    219 sec
+[2022-06-22 01:10:13,974 INFO] Step 2150/100000; acc:  14.92; ppl: 261.60; xent: 5.57; lr: 0.00100; 34581/3455 tok/s;    224 sec
+[2022-06-22 01:10:19,403 INFO] Step 2200/100000; acc:  15.56; ppl: 247.36; xent: 5.51; lr: 0.00100; 34460/3881 tok/s;    230 sec
+[2022-06-22 01:10:20,637 INFO] Weighted corpora loaded so far:
+			* corpus: 14
+[2022-06-22 01:10:24,740 INFO] Step 2250/100000; acc:  15.81; ppl: 250.44; xent: 5.52; lr: 0.00100; 35472/3195 tok/s;    235 sec
+[2022-06-22 01:10:29,863 INFO] Step 2300/100000; acc:  15.58; ppl: 244.08; xent: 5.50; lr: 0.00100; 36107/3323 tok/s;    240 sec
+[2022-06-22 01:10:35,238 INFO] Step 2350/100000; acc:  15.30; ppl: 238.13; xent: 5.47; lr: 0.00100; 34987/3601 tok/s;    245 sec
+[2022-06-22 01:10:37,422 INFO] Weighted corpora loaded so far:
+			* corpus: 15
+[2022-06-22 01:10:40,605 INFO] Step 2400/100000; acc:  16.21; ppl: 237.97; xent: 5.47; lr: 0.00100; 34892/3517 tok/s;    251 sec
+[2022-06-22 01:10:45,853 INFO] Step 2450/100000; acc:  15.36; ppl: 230.05; xent: 5.44; lr: 0.00100; 35813/3492 tok/s;    256 sec
+[2022-06-22 01:10:50,957 INFO] Step 2500/100000; acc:  15.39; ppl: 228.98; xent: 5.43; lr: 0.00100; 36051/3748 tok/s;    261 sec
+[2022-06-22 01:10:53,964 INFO] Weighted corpora loaded so far:
+			* corpus: 16
+[2022-06-22 01:10:56,474 INFO] Step 2550/100000; acc:  15.55; ppl: 223.69; xent: 5.41; lr: 0.00100; 34239/3480 tok/s;    267 sec
+[2022-06-22 01:11:01,652 INFO] Step 2600/100000; acc:  15.81; ppl: 224.68; xent: 5.41; lr: 0.00100; 36483/3616 tok/s;    272 sec
+[2022-06-22 01:11:06,820 INFO] Step 2650/100000; acc:  15.33; ppl: 211.59; xent: 5.35; lr: 0.00100; 35393/3351 tok/s;    277 sec
+[2022-06-22 01:11:10,659 INFO] Weighted corpora loaded so far:
+			* corpus: 17
+[2022-06-22 01:11:12,079 INFO] Step 2700/100000; acc:  15.22; ppl: 223.04; xent: 5.41; lr: 0.00100; 35925/3952 tok/s;    282 sec
+[2022-06-22 01:11:16,952 INFO] Step 2750/100000; acc:  16.06; ppl: 215.36; xent: 5.37; lr: 0.00100; 38827/3661 tok/s;    287 sec
+[2022-06-22 01:11:22,140 INFO] Step 2800/100000; acc:  15.24; ppl: 207.76; xent: 5.34; lr: 0.00100; 35602/3012 tok/s;    292 sec
+[2022-06-22 01:11:27,223 INFO] Weighted corpora loaded so far:
+			* corpus: 18
+[2022-06-22 01:11:27,753 INFO] Step 2850/100000; acc:  15.51; ppl: 211.80; xent: 5.36; lr: 0.00100; 33137/3810 tok/s;    298 sec
+[2022-06-22 01:11:32,568 INFO] Step 2900/100000; acc:  15.81; ppl: 206.31; xent: 5.33; lr: 0.00100; 39077/3497 tok/s;    303 sec
+[2022-06-22 01:11:37,599 INFO] Step 2950/100000; acc:  15.28; ppl: 207.87; xent: 5.34; lr: 0.00100; 36898/3585 tok/s;    308 sec
+[2022-06-22 01:11:42,906 INFO] Step 3000/100000; acc:  15.89; ppl: 198.39; xent: 5.29; lr: 0.00100; 34923/3759 tok/s;    313 sec
+[2022-06-22 01:11:43,373 INFO] Weighted corpora loaded so far:
+			* corpus: 19
+[2022-06-22 01:11:48,451 INFO] Step 3050/100000; acc:  15.71; ppl: 203.55; xent: 5.32; lr: 0.00100; 33875/3311 tok/s;    319 sec
+[2022-06-22 01:11:53,504 INFO] Step 3100/100000; acc:  15.14; ppl: 203.76; xent: 5.32; lr: 0.00100; 36716/3525 tok/s;    324 sec
+[2022-06-22 01:11:58,967 INFO] Step 3150/100000; acc:  15.87; ppl: 193.26; xent: 5.26; lr: 0.00100; 34411/3824 tok/s;    329 sec
+[2022-06-22 01:12:00,094 INFO] Weighted corpora loaded so far:
+			* corpus: 20
+[2022-06-22 01:12:03,897 INFO] Step 3200/100000; acc:  15.79; ppl: 198.61; xent: 5.29; lr: 0.00100; 38311/3647 tok/s;    334 sec
+[2022-06-22 01:12:08,984 INFO] Step 3250/100000; acc:  15.39; ppl: 193.46; xent: 5.27; lr: 0.00100; 36442/3291 tok/s;    339 sec
+[2022-06-22 01:12:13,876 INFO] Step 3300/100000; acc:  15.38; ppl: 188.44; xent: 5.24; lr: 0.00100; 37855/4101 tok/s;    344 sec
+[2022-06-22 01:12:15,884 INFO] Weighted corpora loaded so far:
+			* corpus: 21
+[2022-06-22 01:12:19,019 INFO] Step 3350/100000; acc:  16.33; ppl: 187.94; xent: 5.24; lr: 0.00100; 36590/3517 tok/s;    349 sec
