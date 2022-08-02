@@ -23,7 +23,7 @@ This helps keep my mind sane
     - drop_out: 0.1
     - label_smoothing: 0.1
     - adam_decay:0.9
-- Artifacts (this is by no mean the model input and output, just the experiments artifacts for testing and analysis ):
+- Artifacts (this is by no mean the model input and output, just the experiments' artifacts for testing and analysis ):
     - Input: Vulnerabilities data generated from the VRepair methods, stored in vul_data
     - Output: Log file **log_100k_steps** of the training process store in log folder
 
